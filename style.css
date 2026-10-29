@@ -762,3 +762,16 @@ body {
     transform: none;
   }
 }
+
+
+/* Accessibilité : focus clavier cohérent avec la palette turquoise / rose. */
+.link-card:focus-visible,
+.status:focus-visible,
+.wordmark:focus-visible,
+.avatar:focus-visible {
+  outline: 2px solid #42e0df;
+  outline-offset: 4px;
+}
+.link-card:nth-child(even):focus-visible {
+  outline-color: #ff9bc5;
+}
