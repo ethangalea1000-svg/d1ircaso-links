@@ -1,25 +1,32 @@
 # d1ircaso-links
 
-## Objectif
+Page personnelle de liens pour **@d1ircaso**, publiée avec GitHub Pages.
 
-Une page de liens personnelle, minimaliste et soignée, pensée comme une alternative indépendante à Linktree et Lnk.Bio. Une identité discrète, une typographie nette et des accès directs aux profils et projets.
+## Contenu
 
-## Technos
+- Profil Instagram : https://www.instagram.com/d1ircaso/
+- GitHub : https://github.com/ethangalea1000-svg
+- Enquête 10 pour cent et lac du Peirou
+- Octobre rose
+- Critique bistrot steack house
+
+Les trois documents s'ouvrent dans un nouvel onglet. Vérifier leurs autorisations de partage Google Drive/Docs pour que les visiteurs puissent les consulter.
+
+## Technologies
 
 - HTML5 sémantique
-- CSS3 (variables, Grid/Flexbox, animations et media queries)
-- Aucune dépendance JavaScript
-- Compatible avec GitHub Pages
+- CSS3 : variables, Grid/Flexbox, animations adaptatives et media queries
+- Aucun JavaScript requis
+- Hébergement statique via GitHub Pages
 
-## Statut
+## Modifier le site
 
-**En construction constante**
+1. Modifier les libellés ou les liens dans `index.html`.
+2. Modifier la palette et la mise en page dans `style.css`.
+3. Après le commit, attendre la fin du déploiement GitHub Pages puis actualiser le site.
 
-## Personnalisation
+## Accessibilité et compatibilité
 
-1. Remplacer les URL d'exemple dans `index.html`.
-2. Modifier la lettre de l'avatar ou remplacer le bloc par une image personnelle.
-3. Adapter la description et les libellés des liens.
-4. Publier le dépôt avec GitHub Pages si souhaité.
-
-Les liens de démonstration utilisent des adresses réservées à l'exemple ou des pages génériques : vérifie chaque URL avant publication.
+- Mise en page adaptée aux écrans mobiles et ordinateurs.
+- Navigation clavier avec lien de saut vers les liens.
+- Effets de mouvement réduits si l'utilisateur l'a demandé dans son système.
