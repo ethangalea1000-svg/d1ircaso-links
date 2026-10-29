@@ -657,3 +657,27 @@ body {
     --line: #548382;
   }
 }
+
+
+/* Accessibilité clavier : lien de saut masqué jusqu'à la navigation au clavier. */
+.skip-link {
+  position: fixed;
+  z-index: 1000;
+  top: 12px;
+  left: 12px;
+  padding: 10px 14px;
+  transform: translateY(calc(-100% - 20px));
+  border: 1px solid #42e0df;
+  border-radius: 8px;
+  background: #0d2021;
+  color: #f2fbfa;
+  font-size: 13px;
+  text-decoration: none;
+  transition: transform .18s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+  outline: 2px solid #ff9bc5;
+  outline-offset: 3px;
+}
